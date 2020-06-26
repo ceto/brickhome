@@ -15,6 +15,8 @@ import named         from 'vinyl-named';
 import uncss         from 'uncss';
 import autoprefixer  from 'autoprefixer';
 
+import ghpages  from 'gh-pages';
+
 // Load all Gulp plugins into one variable
 const $ = plugins();
 
