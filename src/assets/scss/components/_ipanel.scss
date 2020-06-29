@@ -1,0 +1,83 @@
+.ipanel {
+    padding:3vw;
+    // border: 1px solid $darker-gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: all .5s ease ;
+
+
+    .citem & {
+        width: 28vw;
+        position: absolute;
+        height: 100%;
+        opacity: 0;
+    }
+
+    .citem.is-open & {
+        opacity: 1;
+
+    }
+
+}
+.ipanel__header {
+
+
+    h3 {
+        font-weight: $fw-bold;
+        font-size: 1.666rem;
+        margin:0;
+        line-height: 1;
+    }
+    p {
+        color: $darker-gray;
+        font-size: 1rem;
+        letter-spacing: 0.05em;
+    }
+}
+
+.ipanel__details {
+    h4 {
+        margin:0;
+        color: $darker-gray;
+        font-size: 1rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-weight: $fw-normal;
+
+    }
+    p {
+        font-size: .875rem;
+        
+    }
+    > *:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+
+.carouselstatus {
+    padding:1rem 10%;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-shadow: 0 0 2rem rgba(#fff,.5);
+    font-weight: $fw-bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    em {
+
+        font-style: italic;
+        font-weight: $fw-normal;
+        display: block;
+        font-size: 93.75%;
+        &:after {
+            content:' —'
+        }
+        &:before {
+            content:'— '
+        }
+    }
+}

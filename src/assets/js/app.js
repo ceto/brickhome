@@ -25,3 +25,11 @@ $('.homecarousel').slick({
     slidesToShow: 1,
     variableWidth: true
 });
+
+$('.citem figure').on('click', 'a', function(e) {
+    e.preventDefault();
+    $(this).closest('.citem').toggleClass('is-open');
+    $('.carouselstatus').html($(this).closest('figure').attr('data-title') + '<em>' + $(this).closest('figure').attr('data-description') + '</em>');
+    // alert($(this).closest('figure').attr('data-title'));
+
+});

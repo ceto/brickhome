@@ -80,7 +80,7 @@ $foundation-palette: (
 );
 $light-gray: #e6e6e6; $light-gray-2: #dedede; $xlight-gray: #efefef;
 $medium-gray: #cacaca;
-$dark-gray: #3e3e3e; $darker-gray: #1e1e1e;
+$dark-gray: #3e3e3e; $darker-gray: #A0A0A0;
 $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
@@ -91,7 +91,7 @@ $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
 $global-position: 1rem;
-$global-weight-normal: 300; $global-weight-regular: 400; $global-weight-medium: 500;
+$global-weight-normal: $fw-normal; $global-weight-regular: 400; $global-weight-medium: 500;
 $global-weight-bold: 700;
 $global-radius: 0;
 $global-menu-padding: 0.7rem 1rem;
@@ -147,7 +147,7 @@ $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
-$header-lineheight: 1.4;
+$header-lineheight: 1.2;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
@@ -170,7 +170,7 @@ $header-styles: (
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
-$paragraph-lineheight: 1.6;
+$paragraph-lineheight: 1.4;
 $paragraph-margin-bottom: 1rem;
 $paragraph-text-rendering: optimizeLegibility;
 $enable-code-inline: true;
