@@ -1,5 +1,9 @@
 .sitefooter {
-    position: relative;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    // position: relative;
     background: $body-background;
     font-size: .875rem;
     font-weight: $global-weight-medium;
@@ -8,6 +12,12 @@
     }
     .no-footer & {
         display: none;
+    }
+    // display: none;
+    @media (min-aspect-ratio: 32/19) {
+        & {
+           display: none;
+        }
     }
 }
 

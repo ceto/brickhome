@@ -2,15 +2,48 @@
     position: relative;
     transition: transform .3s ease;
     transform: translate3d(0, 0, 0);
-}
-.slick-list {
-    overflow: visible;
+
+    .slick-list {
+        overflow: visible;
+    }
+
+    .slick-track {
+        transform: translate3d(0, 0, 0);
+    }
+    .slick-slide {
+        margin: 0 .333vw;
+        line-height: 0;
+    }
 }
 
-.slick-track {
-    transform: translate3d(0, 0, 0);
-}
-.slick-slide {
-    margin: 0 .333vw;
-}
+.navcarousel {
 
+    .slick-slide {
+        margin: 0 .125vw;
+        outline:none;
+        line-height: 0;
+    }
+    figure {
+    }
+    a {
+        outline: none;
+    }
+    img {
+        height: 6.5vw;
+        max-width: none;
+        width: auto;
+        opacity: .5;
+        display: block;
+        
+    }
+    .slick-current img {
+        opacity: 1;
+    }
+
+    @media (min-aspect-ratio: 16/9) {
+        & {
+            display: none;
+        }
+    }
+
+}

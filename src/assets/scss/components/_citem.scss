@@ -1,12 +1,12 @@
 html {
-    overflow: hidden;
+    // overflow: hidden;
 }
 .citem {
     display: flex;
     flex-wrap: nowrap;
     
     img {
-        height: 41vw;
+        height: 41.875vw;
         max-width: none;
         width: auto;
     }

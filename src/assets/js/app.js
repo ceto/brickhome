@@ -20,6 +20,8 @@ $(document).foundation();
 var slickIsChanging = false;
 
 const $homecarousel = $('.homecarousel');
+const $navcarousel = $('.navcarousel');
+
 $homecarousel
 .on("init", function() {
     //slick slider callback must be defined before creating slick object
@@ -44,13 +46,26 @@ $homecarousel
 })
 .slick({
     arrows: false,
-    infinite: false,
+    infinite: true,
     // centerMode: true,
     // centerPadding: 0,
     slidesToShow: 1,
     variableWidth: true,
     verticalSwiping: true,
-    draggable: false
+    draggable: false,
+    asNavFor: '.navcarousel',
+    // speed: 300,
+});
+
+$navcarousel.slick({
+    arrows: false,
+    infinite: true,
+    centerMode: true,
+    centerPadding: 0,
+    slidesToShow: 7,
+    variableWidth: true,
+    asNavFor: '.homecarousel',
+    focusOnSelect: true,
     // speed: 300,
 });
 
