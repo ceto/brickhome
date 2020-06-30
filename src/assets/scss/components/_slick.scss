@@ -1,6 +1,15 @@
-// .slick-list {
-//     margin: 0 -10px;
-// }
+.homecarousel {
+    position: relative;
+    transition: transform .3s ease;
+    transform: translate3d(0, 0, 0);
+}
+.slick-list {
+    overflow: visible;
+}
+
+.slick-track {
+    transform: translate3d(0, 0, 0);
+}
 .slick-slide {
     margin: 0 .333vw;
 }
