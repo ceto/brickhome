@@ -27,6 +27,10 @@ $homecarousel
     //slick slider callback must be defined before creating slick object
     console.log("init");
     mouseWheel($homecarousel);
+    
+    var elSlide = $(slick.$slides[0]);
+    var xpos = ($homecarousel.width() - elSlide.width())/2 ;
+    $homecarousel.css('transform', 'translate3d(' + xpos +'px, 0px, 0px)');
 })
 .on('beforeChange', function(event, slick, currentSlide, nextSlide){
     slickIsChanging = true;
@@ -43,11 +47,6 @@ $homecarousel
     var elSlide = $(slick.$slides[currentSlide]);
     $('.carouselstatus').html($(elSlide).find('figure').attr('data-title') + '<em>' + $(elSlide).find('figure').attr('data-description') + '</em>');
 
-})
-.on('init', function(event, slick){
-    // var elSlide = $(slick.$slides[0]);
-    // var xpos = ($homecarousel.width() - elSlide.width())/2 ;
-    // $homecarousel.css('transform', 'translate3d(' + xpos +'px, 0px, 0px)');
 })
 .slick({
     arrows: false,
