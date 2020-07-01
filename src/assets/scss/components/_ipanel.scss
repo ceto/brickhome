@@ -17,7 +17,14 @@
         opacity: 1;
 
     }
-    @include breakpoint(medium) {
+
+    .slidecard & {
+        padding:3rem 3vw;
+        max-width: 27rem;
+        margin:0 auto;
+    }
+
+    @include breakpoint(tablet) {
         font-size: .75rem;
     }
 
@@ -32,8 +39,8 @@
     h3 {
         font-weight: $fw-bold;
         font-size: 1.666em;
-        margin:0;
-        line-height: 1;
+        margin:0 0;
+        line-height: 1.125;
     }
     p {
         color: $darker-gray;

@@ -1,15 +1,14 @@
-html {
-    // overflow: hidden;
-}
-.citem {
-    display: flex;
-    flex-wrap: nowrap;
-    
-    img {
-        height: 41.875vw;
-        max-width: none;
-        width: auto;
+.slides {
+    list-style: none;
+    margin:0;
+    padding:0;
+    > li {
+        display: block;
+        margin:0 0 2rem;
     }
+}
+.slidecard {
+
 
     figure {
         position: relative;
@@ -20,9 +19,6 @@ html {
         }
     }
 
-    &.is-open .ipanel + figure{
-        margin-left: 28vw;
-    }
 
     figcaption {
         position: absolute;
@@ -35,7 +31,7 @@ html {
         padding:10% 15%;
         color: #fff;
         text-align: center;
-        font-size: calc(1.25rem + 2vw);
+        font-size: 1.5rem;
         line-height: 1.2;
         text-shadow: 0 0 2rem rgba(#000,.5);
         font-weight: $fw-bold;
@@ -44,7 +40,7 @@ html {
         justify-content: center;
         flex-direction: column;
         transition: all .3s ease .3s;
-        opacity: 0;
+        // opacity: 0;
         overflow: hidden;
         em {
 
@@ -53,17 +49,5 @@ html {
             display: block;
             font-size: 66.666%;
         }
-
-        .slick-current &{
-            opacity: 1;
-        }
     }
-
-    &.is-open figcaption {
-        opacity: 0;
-        // top:100%;
-    }
-
-
-
 }

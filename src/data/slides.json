@@ -1,0 +1,134 @@
+[
+    {
+        "title": "Sunset boulevard",
+        "client": "Helen & Hard",
+        "date": "2014",
+        "info": "Onsectetur adipisicing elit. Eaque iste reprehenderit, incidunt expedita, exercitationem suscipit illo voluptatem modi sequi aspernatur adipisicing elit. Quod ipsam accusamus unde dolore neque repudiandae, saepe molestias.",
+        "img": "https://source.unsplash.com/1800x1000/?building,architecture",
+        "img_width": "1800",
+        "img_height": "1000",
+        "figcaption": "Diam eget risus varius blandit sit amet non magna",
+        "url": "#"
+    },
+    {
+        "title": "Filmesgyakornok program",
+        "client": "Filmalap",
+        "date": "2016",
+        "info": "Consectetur adipisicing elit. Et hic ut aliquid ipsa ad, repellendus fugiat placeat, a reiciendis! Quis impedit soluta eveniet omnis autem expedita earum, vitae ducimus dolorum. Concidunt expedita, exercitationem suscipit illo voluptatem modi sequi aspernatur.",
+        "img": "https://source.unsplash.com/1920x1200/?architecture",
+        "img_width": "1920",
+        "img_height": "1224",
+        "figcaption": "",
+        "url": "#"
+    },
+    {
+        "title": "Dolor sit amet lorem ipsum",
+        "client": "Lorem visszhang",
+        "date": "2020",
+        "info": "Cxplicabo beatae consequatur ut sequi iure, molestias repudiandae quis porro amet nemo saepe a perspiciatis. Eaque iste reprehenderit, incidunt expedita, exercitationem suscipit illo voluptatem modi sequi aspernatur.",
+        "img": "https://source.unsplash.com/1200x1200/?architecture",
+        "img_width": "1200",
+        "img_height": "1200",
+        "figcaption": "",
+        "url": "#"
+    },
+    {
+        "title": "Program Magyarországon",
+        "client": "Filmalap",
+        "date": "2016",
+        "info": "Consectetur adipisicing elit. Et hic ut aliquid ipsa ad, repellendus fugiat placeat, a reiciendis! Quis impedit soluta eveniet omnis autem expedita earum, vitae ducimus dolorum. Concidunt expedita, exercitationem suscipit illo voluptatem modi sequi aspernatur.",
+        "img": "https://source.unsplash.com/1920x1200/?architecture",
+        "img_width": "1920",
+        "img_height": "1224",
+        "figcaption": "Eget risus varius blandit sit amet non magna",
+        "url": "#"
+    },
+    {
+        "title": "Sit amet lorem ipsum",
+        "client": "Sanyi ipsum",
+        "date": "2021",
+        "info": "Aspernatur est, explicabo beatae consequatur ut sequi iure, molestias repudiandae quis porro amet nemo saepe a perspiciatis. Eaque iste reprehenderit, incidunt expedita, exercitationem suscipit illo voluptatem modi sequi aspernatur.",
+        "img": "https://source.unsplash.com/1200x1200/?building",
+        "img_width": "1200",
+        "img_height": "1200",
+        "figcaption": "",
+        "url": "#"
+    },
+    {
+        "title": "Lorem Sit amet lorem ipsum",
+        "client": "Echo ipsum",
+        "date": "2020",
+        "info": "Aspernatur est, explicabo beatae consequatur ut sequi iure, molestias repudiandae quis porro amet nemo saepe a perspiciatis. Eaque iste reprehenderit, incidunt expedita, exercitationem suscipit illo voluptatem modi sequi aspernatur.",
+        "img": "https://source.unsplash.com/800x1200/?building",
+        "img_width": "800",
+        "img_height": "1200",
+        "figcaption": "",
+        "url": "#"
+    },
+    {
+        "title": "Filmesgyakornok program",
+        "client": "Filmalap",
+        "date": "2016",
+        "info": "Consectetur adipisicing elit. Et hic ut aliquid ipsa ad, repellendus fugiat placeat, a reiciendis! Quis impedit soluta eveniet omnis autem expedita earum, vitae ducimus dolorum. Concidunt expedita, exercitationem suscipit illo voluptatem modi sequi aspernatur.",
+        "img": "https://source.unsplash.com/1920x1200/?architecture",
+        "img_width": "1920",
+        "img_height": "1224",
+        "figcaption": "",
+        "url": "#"
+    },
+    {
+        "title": "Sit amet lorem ipsum",
+        "client": "Lorem visszhang",
+        "date": "2020",
+        "info": "Cxplicabo beatae consequatur ut sequi iure, molestias repudiandae quis porro amet nemo saepe a perspiciatis. Eaque iste reprehenderit, incidunt expedita, exercitationem suscipit illo voluptatem modi sequi aspernatur.",
+        "img": "https://source.unsplash.com/1400x1200/?architecture",
+        "img_width": "1400",
+        "img_height": "1200",
+        "figcaption": "",
+        "url": "#"
+    },
+    {
+        "title": "Program Magyarországon",
+        "client": "Filmalap",
+        "date": "2016",
+        "info": "Consectetur adipisicing elit. Et hic ut aliquid ipsa ad, repellendus fugiat placeat, a reiciendis! Quis impedit soluta eveniet omnis autem expedita earum, vitae ducimus dolorum. Concidunt expedita, exercitationem suscipit illo voluptatem modi sequi aspernatur.",
+        "img": "https://source.unsplash.com/1920x1400/?architecture",
+        "img_width": "1920",
+        "img_height": "1400",
+        "figcaption": "",
+        "url": "#"
+    },
+    {
+        "title": "Sit amet lorem ipsum",
+        "client": "Sanyi ipsum",
+        "date": "2021",
+        "info": "Aspernatur est, explicabo beatae consequatur ut sequi iure, molestias repudiandae quis porro amet nemo saepe a perspiciatis. Eaque iste reprehenderit, incidunt expedita, exercitationem suscipit illo voluptatem modi sequi aspernatur.",
+        "img": "https://source.unsplash.com/1200x1600/?building",
+        "img_width": "1200",
+        "img_height": "1600",
+        "figcaption": "",
+        "url": "#"
+    },
+    {
+        "title": "Lorem Sit amet lorem ipsum",
+        "client": "Echo ipsum",
+        "date": "2020",
+        "info": "Aspernatur est, explicabo beatae consequatur ut sequi iure, molestias repudiandae quis porro amet nemo saepe a perspiciatis. Eaque iste reprehenderit, incidunt expedita, exercitationem suscipit illo voluptatem modi sequi aspernatur.",
+        "img": "https://source.unsplash.com/800x1200/?building",
+        "img_width": "800",
+        "img_height": "1200",
+        "figcaption": "",
+        "url": "#"
+    },
+    {
+        "title": "The End",
+        "client": "Click to see full portfolio",
+        "date": "",
+        "info": "",
+        "img": "https://placehold.it/1000x1000/3b3b3b/?text=?",
+        "img_width": "1000",
+        "img_height": "1000",
+        "figcaption": "The End - Click to see full portfolio",
+        "url": "https://brickvisual.com/portfolio/"
+    }
+]
