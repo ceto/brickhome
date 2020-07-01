@@ -23,11 +23,11 @@ const $homecarousel = $('.homecarousel');
 const $navcarousel = $('.navcarousel');
 
 $homecarousel
-.on("init", function() {
+.on("init", function(event, slick) {
     //slick slider callback must be defined before creating slick object
     console.log("init");
     mouseWheel($homecarousel);
-    
+
     var elSlide = $(slick.$slides[0]);
     var xpos = ($homecarousel.width() - elSlide.width())/2 ;
     $homecarousel.css('transform', 'translate3d(' + xpos +'px, 0px, 0px)');
