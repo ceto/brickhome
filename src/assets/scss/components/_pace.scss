@@ -11,9 +11,9 @@
     right: 0;
     bottom: 0;
     height: 5px;
-    width: 200px;
-    background: #fff;
-    border: 1px solid #2299dd;
+    width: 260px;
+    background: #DCDFE1;
+    // border: 1px solid #2299dd;
 
     overflow: hidden;
 }
@@ -22,7 +22,7 @@
     box-sizing: border-box;  
     transform: translate3d(0, 0, 0);
   
-    max-width: 200px;
+    max-width: 260px;
     position: fixed;
     z-index: 2000;
     display: block;
@@ -32,8 +32,23 @@
     height: 100%;
     width: 100%;
     background: $primary-color;
+    box-shadow: 0 0 15px 0 rgba(#fff,.25);
   }
   
   .pace.pace-inactive {
     display: none;
   }
+
+
+
+//   .pace .pace-progress:after {
+//     content: attr(data-progress-text);
+//     display: inline-block;
+//     position: fixed;
+//     width: 45px;
+//     text-align: right;
+//     right: 0;
+//     padding-right: 16px;
+//     top: 4px;
+//   }
+  

@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import 'what-input';
 import 'slick-carousel';
+import AOS from 'aos';
 import pace from 'pace-js-amd-fix';
 
 // Foundation JS relies on a global variable. In ES6, all imports are hoisted
@@ -17,6 +18,16 @@ require('foundation-sites');
 
 
 $(document).foundation();
+
+AOS.init({
+    offset: 48,
+    duration: 400,
+    easing: "ease-in-out-sine",
+    delay: 0,
+    once: true,
+    //anchor-placement: 'top-bottom',
+    disable: "mobile"
+});
 
 var slickIsChanging = false;
 
@@ -147,13 +158,15 @@ $('.citem figure').on('click', 'a', function(e) {
 
 
 
-window.paceOptions = {
+var poptions = {
     elements: {
         selectors: [
           '.homecarousel',
         ]
     }
 };
+
+Pace.start(poptions);
 
 Pace.on('done', function() {
     $('.fordesktoponly').css('opacity','1');
