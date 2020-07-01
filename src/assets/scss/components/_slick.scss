@@ -1,3 +1,7 @@
+.fordesktoponly {
+    opacity: 0;
+    transition: all .3s ease;
+}
 .homecarousel {
     position: relative;
     transition: transform .3s ease;

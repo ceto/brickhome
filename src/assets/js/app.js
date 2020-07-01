@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import 'what-input';
 import 'slick-carousel';
+import pace from 'pace-js-amd-fix';
 
 // Foundation JS relies on a global variable. In ES6, all imports are hoisted
 // to the top of the file so if we used `import` to import Foundation,
@@ -146,3 +147,14 @@ $('.citem figure').on('click', 'a', function(e) {
 
 
 
+window.paceOptions = {
+    elements: {
+        selectors: [
+          '.homecarousel',
+        ]
+    }
+};
+
+Pace.on('done', function() {
+    $('.fordesktoponly').css('opacity','1');
+});
