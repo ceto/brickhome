@@ -1,3 +1,6 @@
+.carouselwrap {
+    position: relative;
+}
 .carouselstatus {
     padding:0 10%;
     height: calc(4rem + .5vw);
@@ -46,8 +49,7 @@
     }
 
     .slick-track {
-        // transform: translate3d(0, 0, 0);
-        transition: transform 300ms ease-out 0s;
+        transition: transform 300ms cubic-bezier(.06,.84,.19,.9) 0s;
     }
     .slick-slide {
         margin: 0 .333vw;

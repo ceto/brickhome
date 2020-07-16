@@ -12,7 +12,7 @@
 
     figure {
         position: relative;
-        transition: all .4s ease-out;
+        transition: all .4s cubic-bezier(.06,.84,.19,.9) 0s;
         transform: translate3d(0, 0, 0);
         a {
             outline: none;

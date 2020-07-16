@@ -1,54 +1,59 @@
 <div class="fordesktoponly show-for-large paceshow">
-    <section class="carouselcontainer grid-container">
-        <div class="homecarousel slick-slider">
-            {{#each slides}}
-            <div>
-                <div class="citem">
-                    {{#if info}}
-                    <aside class="ipanel">
-                        <header class="ipanel__header">
-                            <h3>{{ title }}</h3>
-                            <p>{{ date }}</p>
-                        </header>
-                        <div class="ipanel__details">
-                            <h4>Project info</h4>
-                            <p>{{ info }}</p>
-                            <h4>Client</h4>
-                            <p>{{ client }}</p>
-                        </div>
-                    </aside>
-                    {{/if}}
-                    <figure data-title="{{ title }}" data-description="{{ client }}">
-                        <a href="{{ url }}">
-                            <img 
-                                width="{{ img_width }}"
-                                height="{{ img_height }}" 
-                                src="{{root}}assets/img/slides/medium/{{ img }}" 
-                                alt="{{ title }}"
-                                srcset="{{root}}assets/img/slides/{{ img }} {{ img_width }}w"
-                            >
-                        </a>
-                        {{#if figcaption}}
-                        <figcaption>
-                            {{ figcaption }}{{#if subcaption}}<em>{{subcaption}}</em>{{/if}}
-                        </figcaption>
+    <div class="carouselwrap">
+        <div class="grid-container">
+            <div class="homecarousel slick-slider">
+                {{#each slides}}
+                <div>
+                    <div class="citem">
+                        {{#if info}}
+                        <aside class="ipanel">
+                            <header class="ipanel__header">
+                                <h3>{{ title }}</h3>
+                                <p>{{ date }}</p>
+                            </header>
+                            <div class="ipanel__details">
+                                <h4>Project info</h4>
+                                <p>{{ info }}</p>
+                                <h4>Client</h4>
+                                <p>{{ client }}</p>
+                            </div>
+                        </aside>
                         {{/if}}
-                    </figure>
+                        <figure data-title="{{ title }}" data-description="{{ client }}">
+                            <a href="{{ url }}">
+                                <img 
+                                    width="{{ img_width }}"
+                                    height="{{ img_height }}" 
+                                    src="{{root}}assets/img/slides/medium/{{ img }}" 
+                                    alt="{{ title }}"
+                                    srcset="{{root}}assets/img/slides/{{ img }} {{ img_width }}w"
+                                >
+                            </a>
+                            {{#if figcaption}}
+                            <figcaption>
+                                {{ figcaption }}{{#if subcaption}}<em>{{subcaption}}</em>{{/if}}
+                            </figcaption>
+                            {{/if}}
+                        </figure>
+                    </div>
                 </div>
-            </div>
-            {{/each}}
-            <div>
-                <div class="citem">
-                    <figure>
-                    <a class="desktopportfoliojump" href="https://brickvisual.com/portfolio/">+ more works</a>
-                    </figure>
+                {{/each}}
+                <div>
+                    <div class="citem">
+                        <figure>
+                        <a class="desktopportfoliojump" href="https://brickvisual.com/portfolio/">+ more works</a>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="grid-container">
         <h3 class="carouselstatus">
             Lorem ipsum dolor sit amet<em>lorem ipsum</em>
         </h3>
-    </section>
+    </div>
+    
     <div class="navcarousel">
         {{#each slides}}
         <div>

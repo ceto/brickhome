@@ -91,13 +91,15 @@ $homecarousel
         setTimeout(function() {
             $(elSlide).closest('.slick-track').css('transform', 'translate3d(' + parseInt(x - igazIt) +'px, 0px, 0px)');
         }, 0);
-
     } else {
         $('.carouselstatus').removeClass('willchange');
     }
 })
 .slick({
-    arrows: false,
+    arrows: true,
+    prevArrow: '<button type="button" class="slick-prev"><svg class="icon"><use xlink:href="#icon-caret-left"></use></svg></button>',
+    nextArrow: '<button type="button" class="slick-next"><svg class="icon"><use xlink:href="#icon-caret-right"></use></svg></button>',
+    appendArrows: '.carouselwrap',
     infinite: false,
     initialSlide: 1,
     centerMode: true,
@@ -188,15 +190,18 @@ $('.citem figure').on('click', 'a', function(e) {
         if ( $(this).closest('.citem').hasClass('is-open') ) {
             $(this).closest('.citem').removeClass('is-open');
             $('.carouselstatus').removeClass('willchange');
+            setTimeout(function() {
+                $homecarousel.slick('slickGoTo', $(ize).closest('.slick-slide').attr('data-slick-index'), true);
+            }, 300); 
         } else {
             $(this).closest('.citem').addClass('is-open');
             $('.carouselstatus').addClass('willchange');
-        } 
+            // setTimeout(function() {
+                $homecarousel.slick('slickGoTo', $(ize).closest('.slick-slide').attr('data-slick-index'), true);
+                // }, 0);
+        }
+         
     }
-    // setTimeout(function() {
-        $homecarousel.slick('slickGoTo', $(ize).closest('.slick-slide').attr('data-slick-index'), true);
-    // }, 0);
-
 });
 
 
