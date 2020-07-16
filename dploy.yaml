@@ -1,0 +1,13 @@
+live:
+    scheme: ftp
+    host: brickvisual.com
+    port: 21
+    user: gabor@brickvisual.com
+    pass: FranciaKremes79
+    check: true
+    path:
+        local: dist/
+        remote: /public_html/brickhome/
+    include:
+        "dist/**/*": "/"
+    exclude: ["dploy.yaml", "**/.DS_Store"]

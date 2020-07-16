@@ -1,0 +1,43 @@
+<div class="formobileonly hide-for-large paceshow">
+    <ul class="slides" data-magellan>
+        {{#each slides}}
+        <li>
+            <div class="slidecard" id="slidecard-{{id}}" data-magellan-target="slidecard-{{id}}">
+                <figure data-title="{{ title }}" data-description="{{ client }}">
+                    <a href="#slidecard-{{id}}">
+                        <img 
+                            width="{{ img_width }}"
+                            height="{{ img_height }}" 
+                            src="{{root}}assets/img/slides/medium/{{ img }}" 
+                            alt="{{ title }}"
+                            srcset="{{root}}assets/img/slides/{{ img }} {{ img_width }}w"
+                        >
+                    </a>
+                    {{#if figcaption}}
+                    <figcaption>
+                        {{ figcaption }}{{#if subcaption}}<em>{{subcaption}}</em>{{/if}}
+                    </figcaption>
+                    {{/if}}
+                </figure>
+                {{#if info}}
+                <aside class="ipanel">
+                    <header class="ipanel__header">
+                        <h3>{{ title }}</h3>
+                        <p>{{ date }}</p>
+                    </header>
+                    <div class="ipanel__details">
+                        <h4>Project info</h4>
+                        <p>{{ info }}</p>
+                        <h4>Client</h4>
+                        <p>{{ client }}</p>
+                    </div>
+                </aside>
+                {{/if}}
+            </div>
+        </li>
+        {{/each}}
+        <li>
+            <a class="mobileportfoliojump" href="https://brickvisual.com/portfolio/">+</a>
+        </li>
+    </ul>
+</div>
