@@ -84,6 +84,7 @@
     &:hover, &:focus {
         // background-color: rgba(#000,.025);
         color:inherit;
-        text-decoration: underline;
+        color: $primary-color;
+        // text-decoration: underline;
     }
 }

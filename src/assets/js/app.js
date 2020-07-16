@@ -118,7 +118,7 @@ $homecarousel
 
 $navcarousel.slick({
     arrows: false,
-    infinite: true,
+    infinite: false,
     initialSlide: $homecarousel.slick('slickGetOption','initialSlide'),
     centerMode: true,
     centerPadding: 0,
@@ -201,7 +201,7 @@ $('.citem figure').on('click', 'a', function(e) {
 
 
 
-var poptions = {
+window.paceOptions = {
     elements: {
         startOnPageLoad: false,
         // minTime: 3250,
@@ -218,14 +218,29 @@ var poptions = {
     }
 };
 
-Pace.start(poptions);
+Pace.start({
+    startOnPageLoad: false,
+    minTime: 800,
+    ghostTime: 200,
+    //catchupTime: 3000,
+    elements: {
+        selectors: [
+          '.slick-slider > div:nth-child(1)',
+          '.slick-slider > div:nth-child(2)',
+          '.slick-slider > div:nth-child(3)',
+          '.slides > li:nth-child(1)',
+          '.slides > li:nth-child(2)',
+          '.slides > li:nth-child(3)'
+        ]
+    }
+});
 Pace.on('done', function() {
     $('.weare').css('opacity', '0');
     $('.pace').css('opacity', '0');
     setTimeout(function(){
         $('.weare').remove();
         $('.pace.pace-inactive').remove();
-    },1800);
+    },1200);
 });
 
 
