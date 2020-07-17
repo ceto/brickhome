@@ -3,7 +3,7 @@
 }
 .carouselstatus {
     padding:0 10%;
-    height: calc(4rem + .5vw);
+    height: calc(5rem + .5vw);
     // background-color: red;
     // height: calc(30rem - 21vw);
     // background-color: red;
@@ -21,8 +21,10 @@
     em {
 
         font-style: italic;
-        font-weight: $fw-normal;
+        font-family: $serif-font-family;
+        font-weight: $fw-regular;
         display: block;
+        margin-top:.333em;
         font-size: 93.75%;
         &:after {
             content:' —'
