@@ -226,7 +226,6 @@ $('.slick-arrow').on('click', function (e) {
 
 $('.citem figure').on('click', 'a', function (e) {
 
-    // e.preventDefault();
     var $this = $(this);
 
     if ($(this).closest('.slick-slide').hasClass('slick-current') && $(this).closest('.citem').find('.ipanel').length) {
