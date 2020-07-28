@@ -223,7 +223,9 @@ $('.slick-arrow').on('click', function (e) {
 
 
 $('.carouselstatus').on('click', function(e) {
+    $('.carouselstatus').toggleClass('willchange');
     $('.slick-current .citem').toggleClass('is-open');
+
 });
 
 $('.citem figure').on('click', 'a', function (e) {
