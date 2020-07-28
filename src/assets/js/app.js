@@ -112,7 +112,7 @@ $homecarousel
         // nextArrow: '<button type="button" class="slick-next"><svg class="icon"><use xlink:href="#icon-caret-right"></use></svg></button>',
         // appendArrows: '.carouselwrap',
         infinite: false,
-        initialSlide: 1,
+        initialSlide: 18,
         centerMode: true,
         centerPadding: 0,
         slidesToShow: 3,
@@ -222,7 +222,9 @@ $('.slick-arrow').on('click', function (e) {
 });
 
 
-
+$('.carouselstatus').on('click', function(e) {
+    $('.slick-current .citem').toggleClass('is-open');
+});
 
 $('.citem figure').on('click', 'a', function (e) {
 

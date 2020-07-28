@@ -79,7 +79,7 @@
     // height: 42vw;
     height: calc(98vh - 8.5rem);
     max-height: 48vw;
-    width:33vw;
+    width:14rem;
     // background-color: red;
     color:inherit;
     &:hover, &:focus {
@@ -90,11 +90,11 @@
     }
 }
 
-.slick-slide.slick-current .citem figure a {
-    cursor: crosshair;
-}
+// .slick-slide.slick-current .citem figure a {
+//     cursor: crosshair;
+// }
 
-.slick-slide figure a {
-    cursor: pointer;
-}
+// .slick-slide figure a {
+//     cursor: pointer;
+// }
 

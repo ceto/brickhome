@@ -36,8 +36,11 @@
 
     &.willchange {
         opacity: 0;
+        // cursor: pointer;
         // transform: translateY(.125em);
     }
+    cursor:pointer;
+    
 }
 
 .homecarousel {

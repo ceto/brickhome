@@ -79,6 +79,18 @@
         margin-bottom: 0;
     }
 
+    a {
+        color:inherit;
+        &:hover, &:focus {
+            color:$primary-color;
+        }
+    }
+
 }
 
 
+.ipanel__moreworks {
+    display: block;
+    margin-top:3em;
+
+}

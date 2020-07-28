@@ -1,6 +1,7 @@
 <div class="formobileonly hide-for-large paceshow">
     <ul class="slides" data-magellan>
         {{#each slides}}
+        {{#if showonmobile}}
         <li>
             <div class="slidecard" id="slidecard-{{id}}" data-magellan-target="slidecard-{{id}}">
                 <figure data-title="{{ title }}" data-description="{{ client }}">
@@ -35,6 +36,7 @@
                 {{/if}}
             </div>
         </li>
+        {{/if}}
         {{/each}}
         <li>
             <a class="mobileportfoliojump" href="https://brickvisual.com/portfolio/">+</a>
