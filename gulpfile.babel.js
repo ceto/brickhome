@@ -17,6 +17,11 @@ import autoprefixer  from 'autoprefixer';
 
 import ghpages  from 'gh-pages';
 
+var rename = require("gulp-rename");
+var svgstore = require("gulp-svgstore");
+var svgmin = require("gulp-svgmin");
+var inject = require("gulp-inject");
+
 // Load all Gulp plugins into one variable
 const $ = plugins();
 
@@ -30,6 +35,25 @@ function loadConfig() {
   let ymlFile = fs.readFileSync('config.yml', 'utf8');
   return yaml.load(ymlFile);
 }
+
+
+// ### SVG fonts inject
+gulp.task('svgicons', function() {
+    var svgs = gulp
+        .src('src/assets/icons/*.svg')
+        .pipe(rename({ prefix: 'icon-' }))
+        .pipe(svgmin())
+        .pipe(svgstore({ inlineSvg: true }));
+
+    function fileContents(filePath, file) {
+        return file.contents.toString();
+    }
+
+    return gulp
+        .src('src/partials/icons.html')
+        .pipe(inject(svgs, { transform: fileContents }))
+        .pipe(gulp.dest('src/partials'));
+});
 
 // Build the "dist" folder by running all of the below tasks
 // Sass must be run later so UnCSS can search for used classes in the others assets.
@@ -53,6 +77,8 @@ function copycname() {
 function deployment() {
   return ghpages.publish(PATHS.dist);
 };
+
+
 
 // Delete the "dist" folder
 // This happens every time a build starts
@@ -186,4 +212,5 @@ function watch() {
   gulp.watch('src/assets/js/**/*.js').on('all', gulp.series(javascript, browser.reload));
   gulp.watch('src/assets/img/**/*').on('all', gulp.series(images, browser.reload));
   gulp.watch('src/styleguide/**').on('all', gulp.series(styleGuide, browser.reload));
+//   gulp.watch('src/assets/icons/**/*.svg', ['svgicons']);
 }

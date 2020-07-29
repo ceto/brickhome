@@ -11,6 +11,32 @@
 .fordesktoponly {
 }
 
+.weare {
+    z-index: 0;
+    font-weight: $fw-bold;
+    text-align: center;
+    position: fixed;
+    z-index: 20000;
+    top: 50%;
+    left: 50%;
+    // right: 0;
+    // bottom: 0;
+    font-size:calc(1rem + 2vw);
+    line-height: 1.2;
+    margin:0 0;
+    padding:0 0 1.5em 0;
+    transform: translateX(-50%) translateY(-50%);
+    transition: all .4s ease-out;
+    .pace-done &{
+        opacity: 0;
+        // display:none
+    }
+    .span {
+        display: block;
+    }
+
+}
+
 /* This is a compiled file, you should be editing the file in the templates directory */
 .pace {
     pointer-events: none;
@@ -26,7 +52,7 @@
     height: 3px;
     width: 140px;
     background: #DCDFE1;
-    transition: opacity .8s ease-out;
+    transition: opacity .4s ease-out .4s;
     // border: 1px solid #2299dd;
 
     overflow: hidden;
