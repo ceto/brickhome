@@ -24,8 +24,16 @@
     @media (min-aspect-ratio: 72/43) {
         & {
            display: none;
+
         }
     }
+    @media (min-aspect-ratio: 72/46) and (max-width: 1200px){
+        & {
+           display: none;
+
+        }
+    }
+    
 }
 
 .sitefooter__separator {

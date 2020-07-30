@@ -102,4 +102,11 @@
         }
     }
 
+    @media (min-aspect-ratio: 72/52) and (max-width: 1200px){
+        & {
+           display: none !important;
+
+        }
+    }
+
 }
