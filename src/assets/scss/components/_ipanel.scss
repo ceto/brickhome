@@ -62,6 +62,7 @@
 }
 
 .ipanel__details {
+    position: relative;
     h4 {
         margin:0;
         color: $darker-gray;
@@ -87,10 +88,14 @@
     }
 
 }
+.ipanel__details__client {
+    margin:0;
+    // .citem & {
+        max-width: calc(100% - 7em);
+    // }
+}
 
-
-.ipanel__moreworks {
-    display: block;
-    margin-top:3em;
-
+p.ipanel__moreworks {
+    float:right;
+    margin:0;
 }

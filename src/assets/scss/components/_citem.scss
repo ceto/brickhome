@@ -51,8 +51,8 @@
             font-style: italic;
             font-weight: $fw-normal;
             display: block;
-            font-size: 66.666%;
-            margin-top:.333em;
+            font-size: 80%;
+            margin-top:.125em;
         }
 
         .slick-current &{
@@ -79,7 +79,7 @@
     // height: 42vw;
     height: calc(98vh - 8.5rem);
     max-height: 48vw;
-    width:14rem;
+    width:17rem;
     // background-color: red;
     color:inherit;
     &:hover, &:focus {

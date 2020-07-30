@@ -6,13 +6,9 @@
             <div class="slidecard" id="slidecard-{{id}}" data-magellan-target="slidecard-{{id}}">
                 <figure data-title="{{ title }}" data-description="{{ client }}">
                     <a href="#slidecard-{{id}}">
-                        <img 
-                            width="{{ img_width }}"
-                            height="{{ img_height }}" 
-                            src="{{root}}assets/img/slides/medium/{{ img }}" 
-                            alt="{{ title }}"
-                            srcset="{{root}}assets/img/slides/{{ img }} {{ img_width }}w"
-                        >
+                        <img width="{{ img_width }}" height="{{ img_height }}"
+                            src="{{root}}assets/img/slides/medium/{{ img }}" alt="{{ title }}"
+                            srcset="{{root}}assets/img/slides/{{ img }} {{ img_width }}w">
                     </a>
                     {{#if figcaption}}
                     <figcaption>
@@ -30,7 +26,9 @@
                         <h4>Project info</h4>
                         <p>{{ info }}</p>
                         <h4>Client</h4>
-                        <p>{{ client }}</p>
+                        <p class="ipanel__moreworks"><a href="https://brickvisual.com/portfolio/">+ more
+                                works</a></p>
+                        <p class="ipanel__details__client">{{ client }}</p>
                     </div>
                 </aside>
                 {{/if}}
