@@ -49,6 +49,10 @@
     // transform: translate3d(0, 0, 0);
     // overflow: visible;
 
+    &.slick-slider {
+        user-select: initial;
+    }
+
     .slick-list {
         overflow: visible;
     }
@@ -63,9 +67,11 @@
 }
 
 .navcarousel {
-    // position: fixed;
-    // bottom:3rem;
-    // width:100%;
+
+    position: fixed;
+    bottom:3rem;
+    left:0;
+    width:100%;
 
     .slick-slide {
         margin: 0 .125vw;
@@ -78,7 +84,7 @@
         outline: none;
     }
     img {
-        height: calc(8vw - 3.5vh);
+        height: calc(8vw - 3.75vh);
         min-height: 5rem;
         max-width: none;
         width: auto;

@@ -1,5 +1,5 @@
 .sitefooter {
-    // border-top:1px solid $light-gray;
+    // border-top:1px solid $xlight-gray;
     position: static;
     padding:.875rem 0;
     bottom:0;
@@ -21,7 +21,7 @@
     @include breakpoint(tablet) {
         position: fixed;
     }
-    @media (min-aspect-ratio: 72/44) {
+    @media (min-aspect-ratio: 72/43) {
         & {
            display: none;
         }
@@ -52,7 +52,15 @@
 
 body {
 
-    @media (min-aspect-ratio: 72/45) {
+    @media (min-aspect-ratio: 72/43) {
         overflow: hidden;
     }
+}
+
+@media (max-aspect-ratio: 72/43) {
+   .carouselstatus {
+        //    background-color: red;
+        // height: calc(70vh - 50vw);
+        // min-height: calc(5rem + .5vw);
+   }
 }
