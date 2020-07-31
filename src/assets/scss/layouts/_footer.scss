@@ -1,7 +1,7 @@
 .sitefooter {
     // border-top:1px solid $xlight-gray;
     position: static;
-    padding:.875rem 0;
+    padding:.5rem 0;
     bottom:0;
     left:0;
     width:100%;
@@ -21,7 +21,7 @@
     @include breakpoint(tablet) {
         position: fixed;
     }
-    @media (min-aspect-ratio: 72/43) {
+    @media (min-aspect-ratio: 72/44) {
         & {
            display: none;
 
@@ -48,24 +48,33 @@
     li {
         display: inline-block;
         a {
-            display: inline-block; 
+            display: flex;
+            height:1.875em;
+            width: 1.875em;
+            align-items: center;
+            justify-content: center;
+             
+            color:inherit;
+            &:hover, &:focus {
+                color:$primary-color;
+            }
         }
     }
     .icon {
         //width:100%;
-        height:.9375em;
-        width: 1.666em;
+        height:1.125em;
+        width: 1.125em;
     }
 }
 
 body {
 
-    @media (min-aspect-ratio: 72/43) {
+    @media (min-aspect-ratio: 72/44) {
         overflow: hidden;
     }
 }
 
-@media (max-aspect-ratio: 72/43) {
+@media (max-aspect-ratio: 72/44) {
    .carouselstatus {
         //    background-color: red;
         // height: calc(70vh - 50vw);

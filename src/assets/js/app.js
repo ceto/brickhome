@@ -269,19 +269,20 @@ $('.citem figure').on('click', 'a', function (e) {
 
 Pace.start({
     minTime: 1200,
-    ghostTime: 1000,
-    // catchupTime: 1200,
+    ghostTime: 400,
+    // catchupTime: 1000,
     // ajax: false, // disabled
     // document: false, // disabled
     // eventLag: false, // disabled
     elements: {
         selectors: [
-            '.slick-slider > div:nth-child(18)',
-            '.slick-slider > div:nth-child(19)',
-            '.slick-slider > div:nth-child(20)',
-            '.slides > li:nth-child(18)',
-            '.slides > li:nth-child(19)',
-            '.slides > li:nth-child(20)'
+            '.banner'
+            // '.slick-slider > div:nth-child(18)',
+            // '.slick-slider > div:nth-child(19)',
+            // '.slick-slider > div:nth-child(20)',
+            // '.slides > li:nth-child(18)',
+            // '.slides > li:nth-child(19)',
+            // '.slides > li:nth-child(20)'
         ]
     }
 });
@@ -296,7 +297,7 @@ Pace.on('done', function () {
 
 
 $('.slidecard figure').on('click', 'a', function (e) {
-    // e.preventDefault();
+    e.preventDefault();
     if ($(this).closest('.slidecard').find('.ipanel').length) {
         if (!$(this).closest('.slidecard').hasClass('is-open')) {
             $(this).closest('.slidecard').addClass('is-open');
