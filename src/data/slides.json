@@ -217,7 +217,8 @@
         "figcaption": "",
         "subcaption": "",
         "url": "#",
-        "id": "18"
+        "id": "18",
+        "preload": "1"
     },
     {
         "title": "citizenM Hotel",
@@ -231,6 +232,7 @@
         "subcaption": "for architecture lorem",
         "url": "#",
         "id": "19",
+        "preload": "1",
         "showonmobile": "1"
     },
     {
@@ -245,6 +247,7 @@
         "subcaption": "",
         "url": "#",
         "id": "20",
+        "preload": "1",
         "showonmobile": "1"
     },
     {

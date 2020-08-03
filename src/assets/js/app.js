@@ -1,16 +1,7 @@
-window.paceOptions = {
-    startOnPageLoad:false
-}
-
 import $ from 'jquery';
 import 'what-input';
 import 'slick-carousel';
 import AOS from 'aos';
-//import pace from 'pace-js-amd-fix';
-import pace from 'pace-progressbar';
-
-
-//require('pace-js-amd-fix');
 
 // Foundation JS relies on a global variable. In ES6, all imports are hoisted
 // to the top of the file so if we used `import` to import Foundation,
@@ -37,12 +28,6 @@ AOS.init({
     disable: "mobile"
 });
 
-
-window.onerror = function (msg, url, line, col, error) {
-    if (error === "some-custom-exception-here") {
-        return true;  //  silent the error, and keep functioning as normal
-    }
-}
 
 var slickIsChanging = false;
 
@@ -267,35 +252,6 @@ $('.citem figure').on('click', 'a', function (e) {
     }
 });
 
-Pace.start({
-    minTime: 1200,
-    ghostTime: 400,
-    // catchupTime: 1000,
-    // ajax: false, // disabled
-    // document: false, // disabled
-    // eventLag: false, // disabled
-    elements: {
-        selectors: [
-            '.banner'
-            // '.slick-slider > div:nth-child(18)',
-            // '.slick-slider > div:nth-child(19)',
-            // '.slick-slider > div:nth-child(20)',
-            // '.slides > li:nth-child(18)',
-            // '.slides > li:nth-child(19)',
-            // '.slides > li:nth-child(20)'
-        ]
-    }
-});
-Pace.on('done', function () {
-    $('.weare').css('opacity', '0');
-    $('.pace').css('opacity', '0');
-    setTimeout(function () {
-        $('.weare').remove();
-        $('.pace.pace-inactive').remove();
-    }, 1200);
-});
-
-
 $('.slidecard figure').on('click', 'a', function (e) {
     e.preventDefault();
     if ($(this).closest('.slidecard').find('.ipanel').length) {
@@ -306,3 +262,12 @@ $('.slidecard figure').on('click', 'a', function (e) {
         }
     }
 });
+
+// $(document).ready(function(){
+//     alert('kész');
+// });
+
+
+
+
+

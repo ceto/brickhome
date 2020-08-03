@@ -7,8 +7,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brick Visual - Communicating Architecture</title>
-    <link rel="stylesheet" href="https://use.typekit.net/qlw0hcu.css" />
+    <link rel="preload" href="{{root}}assets/js/loader.js" as="script">
+    <link rel="preload" href="{{root}}assets/js/app.js" as="script">
+    <link rel="preload" href="{{root}}assets/css/app.css" as="style">
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qlw0hcu.css" />
     <link rel="icon" type="image/png" href="{{ root }}assets/img/favicon.png" />
     <meta name="theme-color" content="#25A7E0" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -22,8 +25,13 @@
 
         gtag("config", "UA-37753223-4");
     </script> -->
+    <script src="{{root}}assets/js/loader.js"></script>
+    {{#each slides}}{{#if preload}}
+    <link rel="preload" href="{{root}}assets/img/slides/{{ img }}" as="image">
+    {{/if}}{{/each}}
   </head>
 <body>
+    
 <h1 class="weare"><span data-aos-delay="200" data-aos-duration="400" data-aos="fade-up">We are<br>Communicating<br>Architecture</span></h1>
 <!-- <div class="notpace"> -->
 {{> siteheader }}
@@ -33,7 +41,6 @@
 <!-- </div> -->
 {{> mobilemodal }}
 {{> icons }}
-
 <script src="{{root}}assets/js/app.js"></script>
 </body>
 </html>
