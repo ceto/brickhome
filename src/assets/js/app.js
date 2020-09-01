@@ -105,7 +105,7 @@ $homecarousel
         // nextArrow: '<button type="button" class="slick-next"><svg class="icon"><use xlink:href="#icon-caret-right"></use></svg></button>',
         // appendArrows: '.carouselwrap',
         infinite: false,
-        initialSlide: 18,
+        initialSlide: 17,
         centerMode: true,
         centerPadding: 0,
         slidesToShow: 3,
