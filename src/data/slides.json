@@ -1,39 +1,28 @@
 [
     {
-        "title": "Founders Hall, Burr and Burton Academy",
-        "client": "KaTO & ZGF Architects",
+        "title": "Anthony Timberlands Center",
+        "client": "WT/GO Architecture",
         "date": "2020",
-        "info": "Founders hall is a new academy building at the Burr and Burton Academy in Vermont. This stunning library will be the heart of the institution, offering integrative studies. On the visualization we used the beams and railings to lead the eyes of the viewer through the image, giving an immersive experience.",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a risus quis tortor dictum tempus. Nulla viverra faucibus risus eget dapibus.",
         "img": "03.jpg",
-        "img_width": "1703",
+        "img_width": "1831",
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
         "id": "1"
     },
     {
-        "title": "Dales and Lake District",
-        "client": "McMullan Studios",
+        "title": "Lagmansgården School",
+        "client": "Anttinen Oiva Architects",
         "date": "2020",
-        "info": "These affordable housings are built to invite younger generations to live in the picturesque Yorkshire National Parks, Dales and Lake District. Through visual storytelling we helped the studio to illustrate the special mood and the relationship between the landscape and the buildings. Competition winner project.",
-        "img": "04.jpg",
-        "img_width": "2172",
+        "info": "Anttinen Oiva Architects’ competition winning proposal represents a restrained and timeless, high-quality architecture that is organically tied to its place. Our architectural illustrations evoke feelings of the inviting warmth of the indoors in the middle of the magical nordic woods.",
+        "img": "02.jpg",
+        "img_width": "1240",
         "img_height": "1240",
         "figcaption": "",
+        "subcaption": "",
         "url": "#",
         "id": "2"
-    },
-    {
-        "title": "European Medicines Agency",
-        "client": "BIG in cooperation with Coldefy & Associés Architectes Urbaniste",
-        "date": "2019",
-        "info": "In the very heart of this campus project in Lille, France stands a soothing garden and the whole concept was built around this green oasis. We choose to show this environmentally conscious building with an emphasis on its closeness to nature.",
-        "img": "05.jpg",
-        "img_width": "2204",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "3"
     },
     {
         "title": "Museum Of Photographic Arts Seoul",
@@ -45,6 +34,18 @@
         "img_height": "1240",
         "figcaption": "",
         "subcaption": "",
+        "url": "#",
+        "id": "3"
+    },
+    {
+        "title": "European Medicines Agency",
+        "client": "BIG in cooperation with Coldefy & Associés Architectes Urbaniste",
+        "date": "2019",
+        "info": "In the very heart of this campus project in Lille, France stands a soothing garden and the whole concept was built around this green oasis. We choose to show this environmentally conscious building with an emphasis on its closeness to nature.",
+        "img": "05.jpg",
+        "img_width": "2204",
+        "img_height": "1240",
+        "figcaption": "",
         "url": "#",
         "id": "4"
     },
@@ -214,10 +215,9 @@
         "img": "01.jpg",
         "img_width": "2047",
         "img_height": "1240",
-        "figcaption": "Great visuals",
-        "subcaption": "for architecture lorem",
+        "figcaption": "We are Communicating Architecture",
         "url": "#",
-        "id": "19",
+        "id": "18",
         "preload": "1",
         "showonmobile": "1"
     },
@@ -232,34 +232,21 @@
         "figcaption": "",
         "subcaption": "",
         "url": "#",
-        "id": "20",
+        "id": "19",
         "preload": "1",
         "showonmobile": "1"
     },
     {
-        "title": "Founders Hall, Burr and Burton Academy",
-        "client": "KaTO & ZGF Architects",
+        "title": "Anthony Timberlands Center",
+        "client": "WT/GO Architecture",
         "date": "2020",
-        "info": "Founders hall is a new academy building at the Burr and Burton Academy in Vermont. This stunning library will be the heart of the institution, offering integrative studies. On the visualization we used the beams and railings to lead the eyes of the viewer through the image, giving an immersive experience.",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a risus quis tortor dictum tempus. Nulla viverra faucibus risus eget dapibus.",
         "img": "03.jpg",
-        "img_width": "1703",
+        "img_width": "1831",
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "21",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Dales and Lake District",
-        "client": "McMullan Studios",
-        "date": "2020",
-        "info": "These affordable housings are built to invite younger generations to live in the picturesque Yorkshire National Parks, Dales and Lake District. Through visual storytelling we helped the studio to illustrate the special mood and the relationship between the landscape and the buildings. Competition winner project.",
-        "img": "04.jpg",
-        "img_width": "2172",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "22",
+        "id": "20",
         "showonmobile": "1"
     },
     {
@@ -272,7 +259,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "23",
+        "id": "21",
         "showonmobile": "1"
     },
     {
@@ -286,7 +273,7 @@
         "figcaption": "",
         "subcaption": "",
         "url": "#",
-        "id": "24",
+        "id": "22",
         "showonmobile": "1"
     },
     {
@@ -299,7 +286,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "25",
+        "id": "23",
         "showonmobile": "1"
     },
     {
@@ -312,7 +299,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "26",
+        "id": "24",
         "showonmobile": "1"
     },
     {
@@ -325,7 +312,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "27",
+        "id": "25",
         "showonmobile": "1"
     },
     {
@@ -338,7 +325,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "28",
+        "id": "26",
         "showonmobile": "1"
     },
     {
@@ -351,7 +338,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "29",
+        "id": "28",
         "showonmobile": "1"
     },
     {
@@ -365,7 +352,7 @@
         "figcaption": "",
         "subcaption": "",
         "url": "#",
-        "id": "30",
+        "id": "29",
         "showonmobile": "1"
     },
     {
@@ -378,7 +365,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "31",
+        "id": "30",
         "showonmobile": "1"
     },
     {
@@ -391,7 +378,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "32",
+        "id": "31",
         "showonmobile": "1"
     },
     {
@@ -404,7 +391,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "33",
+        "id": "32",
         "showonmobile": "1"
     },
     {
@@ -418,7 +405,7 @@
         "figcaption": "",
         "subcaption": "",
         "url": "#",
-        "id": "34",
+        "id": "33",
         "showonmobile": "1"
     },
     {
@@ -431,7 +418,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "35",
+        "id": "34",
         "showonmobile": "1"
     },
     {
@@ -444,7 +431,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "36",
+        "id": "35",
         "showonmobile": "1"
     },
     {
@@ -457,7 +444,21 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
+        "id": "36",
+        "showonmobile": "1"
+    },
+    {
+        "title": "citizenM Hotel",
+        "client": "Gensler",
+        "date": "2020",
+        "info": "When something is as characteristic as the stairway of this hotel, a minimal, yet bold approach to illustrate the yet to be built future is a great way to create a memorable image that stands out. Gensler’s hotel design for the citizenM group will be built in sunny Menlo Park, California.",
+        "img": "00.jpg",
+        "img_width": "1044",
+        "img_height": "1240",
+        "figcaption": "",
+        "url": "#",
         "id": "37",
         "showonmobile": "1"
+        
     }
 ]
