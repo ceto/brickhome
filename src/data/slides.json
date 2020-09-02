@@ -205,7 +205,8 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "17"
+        "id": "17",
+        "preload": "1"
     },
     {
         "title": "citizenM Hotel",
@@ -215,7 +216,7 @@
         "img": "01.jpg",
         "img_width": "2047",
         "img_height": "1240",
-        "figcaption": "We are Communicating Architecture",
+        "figcaption": "",
         "url": "#",
         "id": "18",
         "preload": "1",

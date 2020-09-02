@@ -16,16 +16,6 @@ Pace.start({
     // document: false, // disabled
     // eventLag: false, // disabled
     elements: false,
-    // elements: {
-    //     selectors: [
-    //         '.slick-slider > div:nth-child(18)',
-    //         '.slick-slider > div:nth-child(19)',
-    //         '.slick-slider > div:nth-child(20)',
-    //         '.slides > li:nth-child(18)',
-    //         '.slides > li:nth-child(19)',
-    //         '.slides > li:nth-child(20)'
-    //     ]
-    // }
 });
 Pace.on('done', function () {
 
@@ -40,8 +30,5 @@ setTimeout(function () {
 }, 3000);
 
 setTimeout(function () {
-    // Pace.stop();
-    document.querySelector('.weare').remove(this.parentNode);
-    // document.querySelector('.pace').remove(this.parentNode);
-    
+    document.querySelector('.weare').remove(this.parentNode);    
 }, 5000);

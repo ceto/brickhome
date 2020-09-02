@@ -1,4 +1,4 @@
-<div class="formobileonly hide-for-large aaapaceshow">
+<div class="formobileonly hide-for-large paceshow">
     <ul class="slides" adata-magellan>
         {{#each slides}}
         {{#if showonmobile}}
@@ -12,7 +12,7 @@
                     </a>
                     {{#if figcaption}}
                     <figcaption>
-                        We are<br>Communicating<br>Architecture{{#if subcaption}}<em>{{subcaption}}</em>{{/if}}
+                        {{figcaption}}{{#if subcaption}}<em>{{subcaption}}</em>{{/if}}
                     </figcaption>
                     {{/if}}
                 </figure>
