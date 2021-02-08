@@ -209,6 +209,21 @@
         "preload": "1"
     },
     {
+        "title": "Itt lesz egy Zaha Video",
+        "client": "Hydrogene",
+        "date": "2020",
+        "info": "When something is as characteristic as the stairway of this hotel, a minimal, yet bold approach to illustrate the yet to be built future is a great way to create a memorable image that stands out. Gensler’s hotel design for the citizenM group will be built in sunny Menlo Park, California.",
+        "img": "zaha.jpg",
+        "video": "zaha.mp4",
+        "img_width": "1920",
+        "img_height": "1032",
+        "figcaption": "",
+        "url": "#",
+        "id": "18",
+        "preload": "1",
+        "showonmobile": "1"
+    },
+    {
         "title": "citizenM Hotel",
         "client": "Gensler",
         "date": "2020",
@@ -218,7 +233,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "18",
+        "id": "19",
         "preload": "1",
         "showonmobile": "1"
     },
@@ -233,7 +248,7 @@
         "figcaption": "",
         "subcaption": "",
         "url": "#",
-        "id": "19",
+        "id": "20",
         "preload": "1",
         "showonmobile": "1"
     },
@@ -247,7 +262,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "20",
+        "id": "21",
         "showonmobile": "1"
     },
     {
@@ -260,7 +275,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "21",
+        "id": "22",
         "showonmobile": "1"
     },
     {
@@ -274,7 +289,7 @@
         "figcaption": "",
         "subcaption": "",
         "url": "#",
-        "id": "22",
+        "id": "23",
         "showonmobile": "1"
     },
     {
@@ -287,7 +302,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "23",
+        "id": "24",
         "showonmobile": "1"
     },
     {
@@ -300,7 +315,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "24",
+        "id": "25",
         "showonmobile": "1"
     },
     {
@@ -313,7 +328,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "25",
+        "id": "26",
         "showonmobile": "1"
     },
     {
@@ -326,7 +341,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "26",
+        "id": "27",
         "showonmobile": "1"
     },
     {
@@ -370,6 +385,21 @@
         "showonmobile": "1"
     },
     {
+        "title": "Itt amásodik Zaha Video",
+        "client": "Hydrogene",
+        "date": "2020",
+        "info": "When something is as characteristic as the stairway of this hotel, a minimal, yet bold approach to illustrate the yet to be built future is a great way to create a memorable image that stands out. Gensler’s hotel design for the citizenM group will be built in sunny Menlo Park, California.",
+        "img": "zaha.jpg",
+        "video": "zaha.mp4",
+        "img_width": "1920",
+        "img_height": "1032",
+        "figcaption": "",
+        "url": "#",
+        "id": "31",
+        "preload": "1",
+        "showonmobile": "1"
+    },
+    {
         "title": "Flekkerøy Church",
         "client": "Link Arkitektur",
         "date": "2016",
@@ -379,7 +409,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "31",
+        "id": "32",
         "showonmobile": "1"
     },
     {
@@ -392,7 +422,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "32",
+        "id": "33",
         "showonmobile": "1"
     },
     {
@@ -406,7 +436,7 @@
         "figcaption": "",
         "subcaption": "",
         "url": "#",
-        "id": "33",
+        "id": "34",
         "showonmobile": "1"
     },
     {
@@ -419,7 +449,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "34",
+        "id": "35",
         "showonmobile": "1"
     },
     {
@@ -432,7 +462,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "35",
+        "id": "36",
         "showonmobile": "1"
     },
     {
@@ -445,7 +475,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "36",
+        "id": "37",
         "showonmobile": "1"
     },
     {
@@ -458,7 +488,7 @@
         "img_height": "1240",
         "figcaption": "",
         "url": "#",
-        "id": "37",
+        "id": "38",
         "showonmobile": "1"
         
     }

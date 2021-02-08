@@ -2,6 +2,7 @@ import $ from 'jquery';
 import 'what-input';
 import 'slick-carousel';
 import AOS from 'aos';
+import 'jquery-inview';
 
 // Foundation JS relies on a global variable. In ES6, all imports are hoisted
 // to the top of the file so if we used `import` to import Foundation,
@@ -63,17 +64,38 @@ function detectTrackPad(e) {
 document.addEventListener("mousewheel", detectTrackPad, false);
 document.addEventListener("DOMMouseScroll", detectTrackPad, false);
 
+// Pause all videos
+// document.querySelectorAll('video').forEach(vid => vid.pause());
+
+//Mobile videos autostart/pause
+$('video').bind('inview', function (event, visible, topOrBottomOrBoth) {
+    if (visible == true) {
+      this.play();
+    } else {
+      this.pause();
+    }
+});
+
 
 $homecarousel
     .on("init", function (event, slick) {
+
         //slick slider callback must be defined before creating slick object
         mouseWheel($homecarousel);
         var elSlide = $(slick.$slides[slick.slickGetOption('initialSlide')]);
         $('.carouselstatus').html($(elSlide).find('figure').attr('data-title') + '<em>' + $(elSlide).find('figure').attr('data-description') + '</em>');
 
+        // if ($(elSlide).find('video').length) {
+        //     $(elSlide).find('video').get(0).play();
+        // }
+
     })
     .on('beforeChange', function (event, slick, currentSlide, nextSlide) {
         slickIsChanging = true;
+        
+        // // Pause all videos
+        // document.querySelectorAll('video').forEach(vid => vid.pause());
+
         $('.carouselstatus').addClass('willchange');
     })
     .on('afterChange', function (event, slick, currentSlide) {
@@ -81,6 +103,10 @@ $homecarousel
         var elSlide = $(slick.$slides[currentSlide]);
         var matrix = $(elSlide).closest('.slick-track').css('transform').replace(/[^0-9\-.,]/g, '').split(',');
         var x = parseInt(matrix[12] || matrix[4]);
+
+        // if ($(elSlide).find('video').length) {
+        //     $(elSlide).find('video').get(0).play();
+        // }
 
         if ($(elSlide).find('figure[data-title]').length) {
             $('.carouselstatus').html($(elSlide).find('figure').attr('data-title') + '<em>' + $(elSlide).find('figure').attr('data-description') + '</em>');
